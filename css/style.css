@@ -535,9 +535,52 @@ th {
   margin-right: 30px;
 }
 
-body {
-    background-color: LightGray;
+.images{
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
 }
-div {
+
+.images img {
+ width: 200px;
+}
+
+.image-container {
+  width: 240px;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.image-container p{
+ font-size: 18px;
+}
+
+.header {
+  font-size: 30px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  font-weight: 100;
+}
+
+footer {
+  width: 500px;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: center;
+  border-top: 1px solid gray;
+  margin-top: 100px;
+}
+
+.icons li {
+  text-decoration: none;
+  display: inline;
+  margin-right: 30px;
+}
+
+.icons i {
+  background-color: red;
+  border-radius: 50%;
+}
+/*div {
     border: 1px solid Chocolate;
-}
+}*/
