@@ -575,16 +575,17 @@ footer {
   text-decoration: none;
   display: inline;
   margin-right: 30px;
+  
 
 }
 
 .icons i {
+  color: white;
   width: 30px;
   height: 30px;
   background-color: gray;
-  border-radius: 90px;
-  color: white;
-  font-size: 16px;
+  border-radius: 90%;
+  font-size: 30px;
   vertical-align: center;
 }
 
