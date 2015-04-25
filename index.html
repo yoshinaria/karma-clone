@@ -25,8 +25,9 @@
 
 </head>
 <body>
-  <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
+  <nav class="navbar navbar-default navbar-fixed-top">
+  
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       
@@ -49,15 +50,13 @@
           <li>Blog</li>
           <li>Help</li>
           <li>Log in</li>
-        
-        
       </ul>
 
     </div>
 
-    
-  </div><!-- /.container-fluid -->
-</nav>
+    <div class="row"></div>
+
+  </nav><!--end navbar-->
 
 <div class="jumbotron">
   <div class="container-fluid">
@@ -70,40 +69,51 @@
 </div>
   <!-- Three pics -->
 
-<section class="images">
-  <p class="header">Everyone needs a little Karma.</p>
-  <div class="image-container">
+<section>
+  <div class="row">
+    <div class="col-sm-12">
+      <p class="header">Everyone needs a little Karma.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
     <img src="images/icon-computer.png" />
     <p>Internet for all devices</p>
-  </div>
-  <div class="image-container">
-    <img src="images/coffee.png" />
-    <p>Boost your productivity</p>
-  </div>
-  <div class="image-container">
-    <img src="images/refill.png" />
-    <p>Pay as You Go</p>
-  </div>
-    
+    </div>
+    <div class="col-sm-4">
+      <img src="images/coffee.png" />
+      <p>Boost your productivity</p>
+    </div>
+    <div class="col-sm-4">
+      <img src="images/refill.png" />
+      <p>Pay as You Go</p>
+    </div>
+  </div><!--row-->
 </section>
 
-<footer class="social">
+
+<footer>
     <div class="content">
-      <p>Join us on</p>
-        <ul class="icons">
-            <li>
-                <i class="fa fa-twitter"></i>
-            </li>
-            <li>
-                <i class="fa fa-facebook"></i>
-            </li>
-            <li>
-                <i class="fa fa-instagram"></i>
-            </li>
-        </ul>
+      <div class="row">
+        <div class="col-sm-12">
+          <hr>
+          <p>Join us on</p>
+          <ul class="icons">
+              <li>
+                  <i class="fa fa-twitter"></i>
+              </li>
+              <li>
+                  <i class="fa fa-facebook"></i>
+              </li>
+              <li>
+                  <i class="fa fa-instagram"></i>
+              </li>
+          </ul>
+        </div>
+      </div>
     </div>
 </footer>
     
-
+</div><!--container-fluid-->
 </body>
 </html>
